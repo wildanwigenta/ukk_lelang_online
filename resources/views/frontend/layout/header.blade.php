@@ -2,7 +2,7 @@
 <div class="agileits_header">
     <div class="container">
         <div class="w3l_offers">
-            <p>"Berikan Harga Tertinggi Anda" . <a href="/">BELI SEKARANG</a></p>
+            <p>"Berikan Harga Tertinggi Anda" . <a href="/"> - BID SEKARANG - </a></p>
         </div>
         <div class="agile-login">
             <ul>
