@@ -19,7 +19,7 @@ Website lelang online adalah aplikasi berbasis web yang dipergunakan untuk melak
 ### Cara Install
 
 1. Clone atau download source code
-    - Para terminal, clone repo `git clone git@github.com:nafiesl/grosir-obat.git`
+    - Para terminal, clone repo `git clone https://github.com/wildanwigenta/ukk_lelang_online.git`
     - atau `git clone https://github.com/nafiesl/grosir-obat.git`
     - Jika tidak menggunakan Git, silakan **Download Zip** dan *extract* pada direktori web server (misal: xampp/htdocs)
 2. `cd lelang_online`
