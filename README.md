@@ -8,3 +8,9 @@ Website lelang online adalah aplikasi berbasis web yang dipergunakan untuk melak
 - Halaman admin untuk admin, Admin bisa mengelola data barang dan generate laporan
 - Halaman petugas untuk petugas, Petugas bisa mengelola data barang, proses lelang, dan generate laporan
 - Halaman masyarakat (halaman utama), digunakan masyarakat untuk melakukan proses pelelangan barang
+
+## Spesifikasi
+
+- PHP ^8.1
+- Laravel 9.x
+- Database MySQL atau mariaDB
