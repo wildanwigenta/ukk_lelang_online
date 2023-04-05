@@ -26,6 +26,7 @@ Route::post('/tawar_harga/{id_lelang}',[App\Http\Controllers\FrontendController:
         //  ----------------   ADMIN PAGE   ------------------ //
 Route::prefix('admin')->middleware(['auth','admin-level'])->group(function(){
 
+            // DASHBOARD //
     Route::get('/',[App\Http\Controllers\DashboardController::class,'index']);
     Route::get('/laporan_lelang',[App\Http\Controllers\DashboardController::class,'laporan']);
 
@@ -52,6 +53,7 @@ Route::prefix('admin')->middleware(['auth','admin-level'])->group(function(){
         //  ----------------   PETUGAS PAGE   ------------------ //
 Route::prefix('petugas')->middleware(['auth','petugas-level'])->group(function(){
 
+                // DASHBOARD //
         Route::get('/',[App\Http\Controllers\DashboardController::class,'index']);
         Route::get('/laporan_lelang',[App\Http\Controllers\DashboardController::class,'laporan']);
 
